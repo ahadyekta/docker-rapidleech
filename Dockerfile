@@ -4,7 +4,7 @@ RUN apt-get update && \
 
 RUN git clone https://github.com/Th3-822/rapidleech.git ./
 
-ADD https://raw.githubusercontent.com/wpzzz/docker-rapidleech/master/config.php configs/ 
+ADD https://raw.githubusercontent.com/ahadyekta/docker-rapidleech/master/config.php configs/ 
 
 RUN chmod 777 -R files
 RUN chmod 777 -R configs
